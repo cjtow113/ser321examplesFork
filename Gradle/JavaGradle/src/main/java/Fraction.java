@@ -58,7 +58,7 @@ public class Fraction {
             System.out.println("");
          }
             
-         }
+         
          else{
          // create a new instance
          // Fraction *frac = [[Fraction alloc] init];
