@@ -40,6 +40,7 @@ public class Fraction {
    public static void main (String args[]) {
       try {
          if(args.length == 2){
+            Fraction frac = new Fraction();
             int num = 0;
             int denom = 0;
             try{
