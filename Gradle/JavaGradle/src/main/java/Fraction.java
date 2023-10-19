@@ -12,27 +12,9 @@ import java.io.*;
 public class Fraction {
 
    private int numerator, denominator;
-   private int case;
+   
    public Fraction(){
       numerator = denominator = 0;
-      case = 0;
-   }
-
-   public fraction(int num) {
-      numerator = num;
-      denominator = 0;
-      case = 1;
-   }
-
-   public fraction(int denom) {
-      denominator = denom;
-      case = 2;
-   }
-
-   public fraction(int num, int denom) {
-      numerator = num;
-      denominator = denom;
-      case = 3;
    }
 
    public void print() {
@@ -62,16 +44,10 @@ public class Fraction {
          Fraction frac = new Fraction();
 
          // set the values
-         if(count == 0) {
-            frac.setNumerator(1);
-            frac.setDenominator(3);
-         }
-         else if(count == 1) {
-            frac.setDenominator(2);
-         }
-         else if(count == 2) {
-            frac.setNumerator(2);
-         }
+  
+         frac.setNumerator(1);
+         frac.setDenominator(3);
+ 
          // print it
          System.out.print("The fraction is: ");
          frac.print();
